@@ -712,7 +712,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.6666667
-    functionName: DestroySelf
+    functionName: DestroyConfigured
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

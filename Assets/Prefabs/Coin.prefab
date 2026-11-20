@@ -338,6 +338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b939357f2d031c46befac1c461f8c77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CoinDestroy
+  configured: {fileID: 6567959300349441646}
 --- !u!95 &4903382814843208268
 Animator:
   serializedVersion: 7
