@@ -1,7 +1,7 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class CoinDestroy : MonoBehaviour
+public class Destroyer : MonoBehaviour
 {
     [SerializeField]
     private GameObject configured;

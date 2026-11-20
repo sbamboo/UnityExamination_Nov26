@@ -21,6 +21,12 @@ public class UICounter : MonoBehaviour
         counterText.text = counter.ToString();
     }
 
+    public void RemoveFromCounter(int sub)
+    {
+        counter -= sub;
+        counterText.text = counter.ToString();
+    }
+
     
     // SetCounter gives the counter a new value.
     // Can be used to reset the counter when the player dies.
@@ -28,6 +34,11 @@ public class UICounter : MonoBehaviour
     {
         counter = set;
         counterText.text = counter.ToString();
+    }
+
+    public void SetCounter(float set)
+    {
+        SetCounter((int)set);
     }
 
     // Compares a number (other), if they are the same - invoke the onComparedAndTrue Unity Event
