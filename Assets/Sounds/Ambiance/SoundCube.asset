@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-3119686693893478486
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ambiance_animal_guineapig_oneshot_03_{-3119686693893478486}
+  m_AudioClip: {fileID: 8300000, guid: 4f6edf30e961fa94fb67ba4855b27d49, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-2184892549030641536
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ambiance_animal_guineapig_oneshot_04_{-2184892549030641536}
+  m_AudioClip: {fileID: 8300000, guid: 889e6edd9dfc962499138f4d3cf83ef2, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &6345075152888139925
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ambiance_animal_guineapig_oneshot_01_{6345075152888139925}
+  m_AudioClip: {fileID: 8300000, guid: f6af03d65876bb14980b734e1da81380, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SoundCube
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 6345075152888139925}
+  - {fileID: 6489285388529561898}
+  - {fileID: -3119686693893478486}
+  - {fileID: -2184892549030641536}
+  - {fileID: 8096528669596332513}
+  m_AvoidRepeatingLast: 1
+  m_PlaybackMode: 2
+  m_TriggerMode: 1
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 0
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &6489285388529561898
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ambiance_animal_guineapig_oneshot_02_{6489285388529561898}
+  m_AudioClip: {fileID: 8300000, guid: 048719614a982c04d9311a8fc77a62f3, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &8096528669596332513
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ambiance_animal_guineapig_oneshot_05_{8096528669596332513}
+  m_AudioClip: {fileID: 8300000, guid: d6cf326ffac9d094fb1803b4c63707c8, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
